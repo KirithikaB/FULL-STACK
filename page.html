@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Article</title>
+</head>
+<body>
+<h2>Image via Local Storage</h2>
+<img src="assets/bird.jpeg" width="150" height="150" alt="bird"/>
+<h2>Image via CDN</h2>
+<img src="https://ik.imagekit.io/4qphmaqvf/animal.jpeg?updatedAt=1701354310523" width="150" alt="bird" />
+<h2>Video via CDN</h2>
+<video width="250" controls>
+    <source src="https://ik.imagekit.io/4qphmaqvf/video%20(1080p).mp4?updatedAt=1701354459572"/>
+</video>
+<h2>Audio via CDN</h2>
+<audio controls>
+    <source src="https://ik.imagekit.io/4qphmaqvf/file_example_MP3_700KB.mp3?updatedAt=1701354771174" type="audio/mp3"/>
+</audio>
+<br>
+<h2>Registration Form</h2>
+<form action="submit_form" method="post">
+<label for="email">Email</label>
+<input type="email" placeholder="Enter your email" name="email" id="email" required/>
+<br><br>
+<label for="password">Password</label>
+<input type="password" placeholder="Enter your password" name="password" id="password" required/>
+<br><br>
+<input type="submit">
+</form>
+<h2>HTML Entities</h2>
+<p>COPYRIGHT- &copy</p>
+<p>POUND- &#163</p>
+<p>YEN- &yen</p>
+</body>
+</html>
